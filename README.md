@@ -1,7 +1,7 @@
 # CBOX
 
 
-![](https://i.hizliresim.com/OxVqmU.png)
+![](https://i.hizliresim.com/j6stbj.png)
 
 ### With CBOX, you can make an alert box in 15 seconds without using HTML and CSS!
 
