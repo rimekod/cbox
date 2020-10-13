@@ -11,7 +11,7 @@
 
 ### Basic Usage
 ```html
-    <script src="https://cdn.jsdelivr.net/gh/rimekod/cbox/cbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/rimekod/cbox@74bd2b7/cbox.js"></script>
 ```
 ```js
         CBOX.create("This website uses cookies to provide you with a better experience.", {
