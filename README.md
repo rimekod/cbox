@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/gh/rimekod/cbox/cbox.js"></script>
 ```
 ```js
-    CBOX.create("This website uses cookies to provide you with a better experience.", {
+        CBOX.create("This website uses cookies to provide you with a better experience.", {
             firstButtonText: "I Agree",
             secondButtonText: "Quit",
         });
