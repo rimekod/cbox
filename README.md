@@ -14,17 +14,17 @@
     <script src="https://cdn.jsdelivr.net/gh/rimekod/cbox@74bd2b7/cbox.js"></script>
 ```
 ```js
-        CBOX.create("This website uses cookies to provide you with a better experience.", {
-            firstButtonText: "I Agree",
-            secondButtonText: "Quit",
-        });
-        CBOX.firstButton(() => {
-            document.cookie = "cookiesAccepted=true";
-            CBOX.hide();
-        })
-        CBOX.secondButton(() => {
-            CBOX.hide();
-        })
+    CBOX.create("This website uses cookies to provide you with a better experience.", {
+       firstButtonText: "I Agree",
+       secondButtonText: "Quit",
+    });
+    CBOX.firstButton(() => {
+       document.cookie = "cookiesAccepted=true";
+       CBOX.hide();
+    })
+    CBOX.secondButton(() => {
+       CBOX.hide();
+    })
 ```
 
 ### Settings
@@ -58,4 +58,6 @@ License
 
 MIT
 
-## Author[Rimekod]
+## Author
+[rimekod](https://rimekod.com)
+
