@@ -82,7 +82,7 @@ const CBOX = {
                   }
                   #cbox .buttons {
                     height:40px;
-                    display: `+(settings.secondButtonDisplay == false && settings.firstButtonDisplay == false ? 'none' : 'flex')+`;
+                    display: `+(settings.secondButtonDisplay == false && settings.firstButtonDisplay == false ? 'none !important' : 'flex')+`;
                     flex-direction:`+(settings.secondButtonDisplay == false || settings.firstButtonDisplay == false ? 'column' : 'row')+`;
                     justify-content: `+(settings.secondButtonDisplay == false || settings.firstButtonDisplay == false ? 'stretch' : 'space-between')+`;
                     margin:15px;
