@@ -40,8 +40,8 @@ const CBOX = {
             <div id="cbox" class="box">
             <span>`+text+`</span>
             <div class="buttons">
-            `+(settings.firstButtonDisplay != false ? (`<a id="firstButton" class="accept">`+(!settings.firstButtonText ? "Accept" : settings.firstButtonText)+`</a>`) : "")+`
-            `+(settings.secondButtonDisplay != false ? (`<a id="secondButton" class="close">`+(!settings.secondButtonText ? "Close" : settings.secondButtonText)+`</a>`) : "")+`
+            `+(settings.firstButtonDisplay != false ? (`<a id="firstButton" class="cbox-accept">`+(!settings.firstButtonText ? "Accept" : settings.firstButtonText)+`</a>`) : "")+`
+            `+(settings.secondButtonDisplay != false ? (`<a id="secondButton" class="cbox-close">`+(!settings.secondButtonText ? "Close" : settings.secondButtonText)+`</a>`) : "")+`
             </div>
             
             </div>` + `
@@ -92,7 +92,7 @@ const CBOX = {
                   #cbox .buttons a:hover {
                     opacity:.9;
                   }
-                  #cbox a.accept {
+                  #cbox a.cbox-accept {
                     color: `+(!settings.firstButtonTextColor ? '#fff' : settings.firstButtonTextColor)+`;
                     background:`+(!settings.firstButtonBackground ? '#00d68f' : settings.firstButtonBackground)+`;
                     padding:10px 30px;
@@ -110,7 +110,7 @@ const CBOX = {
                     width:`+(settings.secondButtonDisplay == false || settings.firstButtonDisplay == false ? '100%' : '48%')+`;
                   }
           
-                  #cbox a.close {
+                  #cbox a.cbox-close {
                     color: `+(!settings.secondButtonTextColor ? '#fff' : settings.secondButtonTextColor)+`;
                     background:`+(!settings.secondButtonBackground ? 'indianred' : settings.secondButtonBackground)+`;
                     padding:10px 30px;
